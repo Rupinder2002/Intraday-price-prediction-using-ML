@@ -2,7 +2,8 @@
 # coding: utf-8
 
 # In[3]:
-
+#Remember that using sckit.modelSelection works musch faster that our usual medhod of sample 
+#so in case of any parcticle problem use model selection method fro sckitlearn
 
 import pandas as pd
 import numpy as np
