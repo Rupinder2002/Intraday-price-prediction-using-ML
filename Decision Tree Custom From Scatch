@@ -66,7 +66,13 @@ class Question:
         # Compare the feature value in an example to the
         # feature value in this question.
         val = example[self.column]
+        
         if is_numeric(val):
+        
+        #chances for the efficiency lies here
+        #if the tree is broader, then the more it can be parallelized
+        #thus reducing the time taken by significant amaunt of time.
+        
             return val >= self.value
         else:
             return val == self.value
